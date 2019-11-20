@@ -1,9 +1,6 @@
 # Cordova plugin for [Firebase Authentication](https://firebase.google.com/docs/auth/)
 
-[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url] [![Twitter][twitter-follow]][twitter-url]
-
-| [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)][donate-url] | Your help is appreciated. Create a PR, submit a bug or just grab me :beer: |
-|-|-|
+[![NPM version][npm-version]][npm-url] [![NPM downloads][npm-downloads]][npm-url]
 
 ## Index
 
@@ -18,11 +15,9 @@
 
 ## Installation
 
-    cordova plugin add cordova-plugin-firebase-authentication --save
+    cordova plugin add cordova-plugin-firebase-authentication-medyx --save
 
 Use variable `FIREBASE_AUTH_VERSION` to override dependency version on Android.
-
-Use variable `POD_FIREBASE_VERSION` to override dependency version on iOS.
 
 To use phone number authentication on iOS, your app must be able to receive silent APNs notifications from Firebase. For iOS 8.0 and above silent notifications do not require explicit user consent and is therefore unaffected by a user declining to receive APNs notifications in the app. Thus, the app does not need to request user permission to receive push notifications when implementing Firebase phone number auth.
 
@@ -139,9 +134,6 @@ Set's the current user language code. The string used to set this property must 
 ### useAppLanguage()
 Sets languageCode to the app’s current language.
 
-[npm-url]: https://www.npmjs.com/package/cordova-plugin-firebase-authentication
-[npm-version]: https://img.shields.io/npm/v/cordova-plugin-firebase-authentication.svg
-[npm-downloads]: https://img.shields.io/npm/dm/cordova-plugin-firebase-authentication.svg
-[twitter-url]: https://twitter.com/chemerisuk
-[twitter-follow]: https://img.shields.io/twitter/follow/chemerisuk.svg?style=social&label=Follow%20me
-[donate-url]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FYAALBP25DP2G&source=url
+[npm-url]: https://www.npmjs.com/package/cordova-plugin-firebase-authentication-medyx
+[npm-version]: https://img.shields.io/npm/v/cordova-plugin-firebase-authentication-medyx.svg
+[npm-downloads]: https://img.shields.io/npm/dm/cordova-plugin-firebase-authentication-medyx.svg

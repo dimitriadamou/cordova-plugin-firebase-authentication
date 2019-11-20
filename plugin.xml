@@ -1,14 +1,14 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 xmlns:android="http://schemas.android.com/apk/res/android"
-           id="cordova-plugin-firebase-authentication"
-      version="3.0.0">
+           id="cordova-plugin-firebase-authentication-medyx"
+      version="3.1.0">
 
-    <name>cordova-plugin-firebase-authentication</name>
-    <description>Cordova plugin for Firebase Authentication</description>
+    <name>cordova-plugin-firebase-authentication-medyx</name>
+    <description>Cordova plugin for Firebase Authentication (Medyx)</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
-    <repo>https://github.com/chemerisuk/cordova-plugin-firebase-authentication</repo>
-    <issue>https://github.com/chemerisuk/cordova-plugin-firebase-authentication/issues</issue>
+    <repo>https://github.com/medyxa/cordova-plugin-firebase-authentication</repo>
+    <issue>https://github.com/medyxa/cordova-plugin-firebase-authentication</issue>
 
     <js-module src="www/FirebaseAuthentication.js" name="FirebaseAuthentication">
         <merges target="cordova.plugins.firebase.auth" />
@@ -36,14 +36,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods>
-                <pod name="Firebase/Core" spec="~> 6.3.0" />
-                <pod name="Firebase/Auth" spec="~> 6.3.0" />
+                <pod name="FirebaseCore" spec="~> 6.4.0" />
+                <pod name="FirebaseAuth" spec="~> 6.4.0" />
             </pods>
         </podspec>
     </platform>
 
     <platform name="android">
-        <preference name="FIREBASE_AUTH_VERSION" default="18.0.+"/>
+        <preference name="FIREBASE_AUTH_VERSION" default="19.1.0"/>
 
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="FirebaseAuthentication">
