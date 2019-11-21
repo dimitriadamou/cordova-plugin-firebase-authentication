@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-firebase-authentication-medyx",
+  "name": "@medyx/cordova-plugin-firebase-authentication",
   "version": "3.1.1",
   "description": "Cordova plugin for Firebase Authentication (Medyx)",
   "cordova": {
-    "id": "cordova-plugin-firebase-authentication-medyx",
+    "id": "@medyx/cordova-plugin-firebase-authentication",
     "platforms": [
       "ios",
       "android"
