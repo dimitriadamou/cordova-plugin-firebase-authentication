@@ -15,7 +15,7 @@
 
 ## Installation
 
-    cordova plugin add cordova-plugin-firebase-authentication-medyx --save
+    cordova plugin add @medyx/cordova-plugin-firebase-authentication --save
 
 Use variable `FIREBASE_AUTH_VERSION` to override dependency version on Android.
 
@@ -134,6 +134,6 @@ Set's the current user language code. The string used to set this property must 
 ### useAppLanguage()
 Sets languageCode to the app’s current language.
 
-[npm-url]: https://www.npmjs.com/package/cordova-plugin-firebase-authentication-medyx
-[npm-version]: https://img.shields.io/npm/v/cordova-plugin-firebase-authentication-medyx.svg
-[npm-downloads]: https://img.shields.io/npm/dm/cordova-plugin-firebase-authentication-medyx.svg
+[npm-url]: https://www.npmjs.com/package/@medyx/cordova-plugin-firebase-authentication
+[npm-version]: https://img.shields.io/npm/v/@medyx/cordova-plugin-firebase-authentication.svg
+[npm-downloads]: https://img.shields.io/npm/dm/@medyx/cordova-plugin-firebase-authentication.svg
