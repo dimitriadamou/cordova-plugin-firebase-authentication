@@ -7,8 +7,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <description>Cordova plugin for Firebase Authentication (Medyx)</description>
     <license>MIT</license>
     <keywords>cordova</keywords>
-    <repo>https://github.com/medyxa/cordova-plugin-firebase-authentication</repo>
-    <issue>https://github.com/medyxa/cordova-plugin-firebase-authentication</issue>
+    <repo>https://github.com/dimitriadamou/cordova-plugin-firebase-authentication</repo>
+    <issue>https://github.com/dimitriadamou/cordova-plugin-firebase-authentication</issue>
 
     <js-module src="www/FirebaseAuthentication.js" name="FirebaseAuthentication">
         <merges target="cordova.plugins.firebase.auth" />
