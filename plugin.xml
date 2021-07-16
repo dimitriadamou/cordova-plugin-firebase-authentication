@@ -36,8 +36,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                 <source url="https://github.com/CocoaPods/Specs.git"/>
             </config>
             <pods>
-                <pod name="FirebaseCore" spec="~> 6.4.0" />
-                <pod name="FirebaseAuth" spec="~> 6.4.0" />
+				<pod name="Firebase/Core" spec="8.1.1"/>
+				<pod name="Firebase/Auth" spec="8.1.1"/>
             </pods>
         </podspec>
     </platform>
